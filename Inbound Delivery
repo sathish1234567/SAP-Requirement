@@ -1,0 +1,8 @@
+What is Inbound Delivery? create the against the PO --> Tcode :VL31:Vendor No or PO mandatory
+What is Outbound Delivery ? Create the against the STO(Stock Transfer Order)
+What is scroll ? scroll used for billing
+
+step-1: creating the PO--> EKPO/EKKO: Tcode : ME21N
+Step-2: Inbound Delivery -->LIKP,LIPS --> VL31N --> FM: BBP_INB_DELIVERY_CREATE
+Step-3: Scroll creating for finance purpose
+Step-3: MIGO(GRN)--> GRN against the PO. -->MSEG,MKPF 103- Quality checking purpose-->105- accept the stock....
